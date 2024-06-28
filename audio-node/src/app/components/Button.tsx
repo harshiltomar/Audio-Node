@@ -6,7 +6,7 @@ const Button = ({ text, onClick }: any) => {
             onClick={onClick}
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full flex items-center"
         >
-            <span className="mr-2">{text}</span>
+            <span className="mr-2 font-light">{text}</span>
             <img
                 className="w-4 h-4"
                 src="/images/arrow-forward.png"
